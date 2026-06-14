@@ -15,7 +15,6 @@ export default function Lightbox({
 }: Props) {
   return (
     <div className="fixed inset-0 bg-black/80 z-50 flex flex-col justify-center items-center">
-
       <button
         onClick={close}
         className="absolute top-10 right-10 text-white"
@@ -41,7 +40,7 @@ export default function Lightbox({
         <Image
           src={productImages[active]}
           alt=""
-          className="max-w-125 rounded-xl"
+          className="max-w-2xs md:max-w-125 rounded-xl"
         />
 
         <button

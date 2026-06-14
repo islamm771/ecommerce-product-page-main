@@ -21,7 +21,7 @@ const Cart = () => {
           <div>
             <Image className="size-10 rounded-sm" src={img} alt="" />
           </div>
-          <div>
+          <div className="flex-1">
             <h5 className="text-sm font-semibold">{product.name}</h5>
             <p className="text-sm text-gray-400">{product.price} * {quantity} = {product.price * quantity} $</p>
           </div>
